@@ -1,0 +1,74 @@
+.admin-container{
+  height: 100vh;
+}
+.left-nav{
+  background: #839BC9;
+}
+.header{
+  background: #839BC9;
+  padding: 0 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: rgba(255,255,255,.8);
+}
+.header .title{
+  flex: 1;
+  font-size: 20px;
+  padding:10px 30px;
+  font-weight: bold;
+  
+}
+.header .title span{
+  width: 100px;
+  height: 100%;
+  box-sizing: border-box;
+  display: block;
+  padding:0 10px;
+  border-bottom: 8px solid #2EA6E2;
+  text-align: center;
+}
+.header .dayWheather{
+  padding-right: 20px;
+}
+.header img{
+  height: 50px;
+}
+.content{
+  background: #f1f1f1;
+  padding: 20px;
+}
+/* .menu,
+.sub-menu {
+  background-color:transparent ;
+} */
+.menu,
+.ant-menu-submenu>.ant-menu,
+.ant-menu-dark .ant-menu-inline.ant-menu-sub,
+.ant-menu-dark .ant-menu-item,
+.ant-menu-dark .ant-menu-item-group-title,
+.ant-menu-dark .ant-menu-item>a{
+  background-color:#839BC9;
+  color: #fff;
+}
+.ant-menu-submenu-selected,
+.ant-menu-item>a{
+   color: #fff
+}
+.ant-menu-item>a:hover,
+.ant-menu-submenu>a {
+  color: rgba(255,255,255,.5);
+}
+.ant-menu-item-selected>a,
+.ant-menu-item-selected>a:hover
+{
+  color: #999999;
+}
+.ant-menu-submenu-open,
+.ant-menu-submenu-active,
+.ant-menu-submenu-selected>a{
+  color:#fff;
+}
+.ant-menu-submenu-active:hover{
+  color: #fff;
+}

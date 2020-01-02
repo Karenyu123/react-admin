@@ -1,4 +1,29 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## react 后台管理系统
+
+### 技术栈
+
+- react
+- react-router
+- redux
+- bdraftjs
+- antd
+
+### 实现的功能
+
+- 首页
+- 商品详情
+- 商品分类
+- 加入购物车
+- 图表
+- 登录、登出
+
+### 项目图片
+<img src="https://i.loli.net/2020/01/02/Sl9Jfr845OEDe2g.png" alt=""  />
+<img src="https://i.loli.net/2020/01/02/QhVdw1lGpc9Yo8y.png" alt=""  />
+<img src="https://i.loli.net/2020/01/02/8UP7wIrKslkxyRA.png" alt=""  />
+<img src="https://i.loli.net/2020/01/02/AnSltxFN5v6PJXq.png" alt=""  />
+
+
 
 ## Available Scripts
 
